@@ -82,3 +82,14 @@ if __name__ == "__main__":
 
     inner_result = outer_function(10)
     print(f"Inner result: {inner_result}")
+
+#program 3 using while loop
+
+total = 0
+
+while True:
+    number = float(input("Enter a number (negative number to quit): "))
+    if number < 0:
+        break
+    total =total+number
+print(f"The total sum of all entered numbers is: {total}")
